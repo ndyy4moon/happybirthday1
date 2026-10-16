@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8fc7ff">
+  <title>Happy Birthday, Nadya! 💙</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" id="sky" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">♡ <span>little blue wishes</span></a>
+    <button class="music-toggle" id="musicToggle">
+      ♫ <span id="musicLabel">Putar musik</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow">✦ hari spesial seseorang yang spesial ✦</div>
+      <div class="cloud cloud-left" aria-hidden="true">☁</div>
+      <div class="cloud cloud-right" aria-hidden="true">☁</div>
+      <div class="moon" aria-hidden="true">☾</div>
+
+      <p class="for-you">Untuk sahabatku tersayang</p>
+      <h1>HAPPY BIRTHDAY,<br><span>NADYA NUR SAIDAH!</span></h1>
+      <p class="hero-copy">
+        Hari ini dunia harus sedikit lebih cerah,<br>
+        karena orang selucu dan sebaik kamu bertambah umur! 🩵
+      </p>
+
+      <div class="hero-buttons">
+        <button class="button primary" id="openLetter">💌 Buka surat rahasia</button>
+        <a class="button secondary" href="#memories">📸 Lihat kenangan</a>
+      </div>
+
+      <div class="birthday-cat">ฅ^•ﻌ•^ฅ <span>♡</span></div>
+      <div class="scroll-hint">gulir pelan-pelan ya ↓</div>
+    </section>
+
+    <section class="wish-section section-card">
+      <div class="section-kicker">✧ a little wish for you ✧</div>
+      <h2>Doa kecil untuk <span>Nadya</span> 💫</h2>
+      <p class="wish-text">
+        Semoga hari-harimu selembut awan, setenang langit biru,
+        dan seindah bintang yang nggak pernah kehabisan cahaya.
+      </p>
+      <div class="wish-pills">
+        <span>♡ sehat selalu</span>
+        <span>☁ banyak bahagia</span>
+        <span>✦ mimpi tercapai</span>
+      </div>
+    </section>
+
+    <!-- ALBUM FOTO: cukup ganti file foto di folder images -->
+    <section class="memories" id="memories">
+      <div class="section-kicker">✧ little moments, big memories ✧</div>
+      <h2>Album mini kita 📷</h2>
+      <p class="section-subtitle">Kenangan manis kita ♡</p>
+
+      <div class="photo-grid">
+        <figure class="photo-card tilt-one">
+          <img src="images/foto1.jpeg" alt="Foto kita 1" class="memory-photo">
+          <figcaption>partner ketawa nggak jelas ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card tilt-two">
+          <img src="images/foto2.jpeg" alt="Foto kita 2" class="memory-photo">
+          <figcaption>duo gemes ☁</figcaption>
+        </figure>
+
+        <figure class="photo-card tilt-three">
+          <img src="images/foto3.jpeg" alt="Foto kita 3" class="memory-photo">
+          <figcaption>duo centil ✨</figcaption>
+        </figure>
+
+        <figure class="photo-card tilt-four">
+          <img src="images/foto4.jpeg" alt="Foto kita 4" class="memory-photo">
+          <figcaption>duo cantik 💙</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="surprise section-card">
+      <div class="section-kicker">✧ tiny surprise ✧</div>
+      <h2>Tekan tombolnya, bestie! 🎁</h2>
+      <p>Katanya ada kejutan kecil yang nungguin kamu...</p>
+      <button class="button primary" id="surpriseButton">Aku siap! ✨</button>
+      <p class="surprise-message" id="surpriseMessage" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    dibuat dengan banyak apa yak?, sedikit rasa manis,
+    dan segunung 💙 untuk Nadya
+  </footer>
+
+  <!-- SURAT ULANG TAHUN -->
+  <div class="modal" id="letterModal" role="dialog"
+       aria-modal="true" aria-labelledby="letterTitle" hidden>
+    <div class="modal-backdrop" data-close="true"></div>
+
+    <article class="letter">
+      <button class="close-modal" id="closeLetter" aria-label="Tutup surat">×</button>
+      <div class="letter-icon">💌</div>
+      <p class="section-kicker">surat kecil dari sahabatmu</p>
+      <h2 id="letterTitle">Dear Nadya... 🩵</h2>
+
+      <div class="letter-body">
+        <p>Selamat ulang tahun yaaa, Nanad nak pa wawan! 🎂</p>
+        <p>
+          Makasih udah jadi bestot yang selalu bikin hari-hari biasa
+          terasa lebih seru. Semoga di umur yang baru ini, kamu makin
+          bahagia, makin sehat, makin kuat, dan makin dekat sama semua
+          impianmu.
+        </p>
+        <p>
+          Kalau nanti hari-harimu lagi mendung, ingat ya:
+          kamu nggak harus selalu kuat sendirian. Semoga selalu ada
+          orang baik yang nemenin kamu, dengerin ceritamu,
+          dan bikin kamu ketawa lagi.
+        </p>
+        <p>
+          Jangan lupa makan enak, istirahat yang cukup, dan tetap jadi
+          Nadya yang lucu, baik, dan ajaib itu. Dunia beruntung punya
+          kamu—aku juga! ♡
+        </p>
+        <p class="letter-signoff">
+          Peluk jauh paling kencang,<br>
+          <strong>sahabatmu yang sayang kamu ☁️</strong>
+        </p>
+      </div>
+
+      <div class="letter-doodle">૮ ˶ᵔ ᵕ ᵔ˶ ა ♡</div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
